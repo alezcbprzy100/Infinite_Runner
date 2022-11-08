@@ -7,12 +7,12 @@ public class Fix : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        //dog jump skacz chuju
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(1, 1, 1);
+      
     }
 }
