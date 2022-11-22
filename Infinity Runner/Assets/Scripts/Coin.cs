@@ -19,7 +19,7 @@ public class Coin : MonoBehaviour
         }
 
         // Add score
-        GameManager.inst.score++;
+        GameManager.inst.IncrementScore();
 
         // Destroy coin
         Destroy(gameObject);

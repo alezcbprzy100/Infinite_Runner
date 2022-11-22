@@ -1,12 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class GameManager : MonoBehaviour
 {
 
-    int score;
+    public int score;
     public static GameManager inst;
+
+    public TextMeshProUGUI scoreText;
+
+    public void IncrementScore()
+    {
+        score++;
+        scoreText.text = "SCORE:" + score;
+    }
+
 
     private void Awake ()
     {
