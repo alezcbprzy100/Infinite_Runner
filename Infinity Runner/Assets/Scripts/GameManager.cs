@@ -10,12 +10,17 @@ public class GameManager : MonoBehaviour
     public int score;
     public static GameManager inst;
 
-    public TextMeshProUGUI scoreText;
+    [SerializeField] TextMeshProUGUI scoreText;
+
+    [SerializeField] Player_Movement playerMovement;
 
     public void IncrementScore()
     {
         score++;
         scoreText.text = "SCORE:" + score;
+        // Increase the players speed
+        playerMovement.speed += playerMovement.speedIncreasePerPoint;
+
     }
 
 

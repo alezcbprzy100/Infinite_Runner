@@ -23,12 +23,11 @@ public class GroundSpawner : MonoBehaviour
     {
         for (int i = 0; i < 15; i++) 
         { 
-            if (1 > 3)
+            if (i < 3)
             {
                 SpawnTile(false);
             }
-                
-             else 
+             else
             {
                 SpawnTile(true);
             }
