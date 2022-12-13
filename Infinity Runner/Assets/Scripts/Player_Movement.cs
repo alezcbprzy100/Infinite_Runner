@@ -58,8 +58,10 @@ void Jump ()
     bool isGrounded = Physics.Raycast(transform.position, Vector3.down, (height / 2) + 0.1f, groundMask);
 
 
-    //if are jump
-    rb.AddForce(Vector3.up * jumpForce);
+    if (isGrounded) {
+        rb.AddForce(Vector3.up * jumpForce);
+    }
+    
 }
 
 }
