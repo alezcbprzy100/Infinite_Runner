@@ -286,6 +286,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   coinPrefab: {fileID: 1184773711241987930, guid: 191818dc516c0424a8bc9bca58be9109, type: 3}
-  obstaclePrefab: {fileID: 3741329269965384944, guid: 2957b70abf461b4449513903846066b6, type: 3}
+  obstaclePrefab: {fileID: 5225064017392098886, guid: 98f5dbc992476b84fbeac401f85b4590, type: 3}
   tallObstaclePrefab: {fileID: 3741329269965384944, guid: 58141a6ea2b288a41862fe41d723b256, type: 3}
   tallObstacleChance: 0.2
